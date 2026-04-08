@@ -59,11 +59,12 @@ A Jira-inspired Agile management platform (Next.js + Flask + Node + Redis + Dock
 
 ## 🛠️ Currently Working On
 
-| Project | Focus | Tech Stack |
-| :--- | :--- | :--- |
-| **Payment Orchestrator** | Event-Driven Consistency | `Kafka` `Python` `PostgreSQL` |
-| **Fraud Engine** | Stream Processing / ML | `FastAPI` `Redis` `Scikit-Learn` |
-| **Smart Switch** | High Availability | `Node.js` `Circuit Breaker` `Docker` |
+* **Distributed Payment Orchestrator** 🔁  
+  Solving the "distributed transaction" problem using **Apache Kafka** to ensure data consistency across microservices during high-load payment flows.
+* **Real-time Fraud & Anomaly Engine** 🔁  
+  Building a stream-processing engine to detect "carding" patterns and unauthorized access in under 200ms.
+* **Fault-Tolerant Smart Switch** 🔁  
+  A payment router featuring automated failover and **Circuit-Breaker** patterns to minimize transaction failures during provider downtime.
 
 > 💡 **Current Focus:** Deep diving into **Distributed Systems Design** and **Ledger Immutability**.
 
