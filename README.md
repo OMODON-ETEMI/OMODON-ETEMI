@@ -8,10 +8,7 @@
 
 ## 🧠 About Me
 
-- 🔨 Full-stack Software Engineer focused on backend, DevOps, and cloud-native systems.
-- 🚀 Passionate about personal innovation, performance optimization, and AI-resilient code.
-- 🧰 Builder of scalable systems, secure APIs, and robust pipelines.
-- 📈 Committed to clean architecture, CI/CD discipline, and long-term code quality.
+I'm a backend engineer specialising in distributed financial infrastructure, specifically the hard problems of transaction correctness, idempotency, and consistency at scale. I taught myself these concepts by building a production-grade wallet service from scratch, implementing the same patterns used at Stripe and Cash App: ACID-compliant transactions, row-level locking to eliminate race conditions, and saga-based compensation for distributed failures. I'm now deepening that into event-driven payment orchestration with Kafka and building toward consensus protocol implementations.
 
 ---
 
@@ -44,7 +41,7 @@ CI/CD · REST API Design · Secure Coding · Agile/Scrum · Caching & Rate Limit
 
 ## 🧩 Projects
 
-> _Coming Soon — showcasing selected personal projects that demonstrate innovation and architecture._
+A Jira-inspired Agile management platform (Next.js + Flask + Node + Redis + Docker + MongoDB)
 
 ---
 
@@ -62,9 +59,13 @@ CI/CD · REST API Design · Secure Coding · Agile/Scrum · Caching & Rate Limit
 
 ## 🛠️ Currently Working On
 
-- 🔁 A Jira-inspired task and sprint management platform (Next.js + Flask + MongoDB)
-- 🧱 Custom drag-and-drop issue boards
-- 🧪 Metrics systems: burndown charts, team performance, and story point analytics
+| Project | Focus | Tech Stack |
+| :--- | :--- | :--- |
+| **Payment Orchestrator** | Event-Driven Consistency | `Kafka` `Python` `PostgreSQL` |
+| **Fraud Engine** | Stream Processing / ML | `FastAPI` `Redis` `Scikit-Learn` |
+| **Smart Switch** | High Availability | `Node.js` `Circuit Breaker` `Docker` |
+
+> 💡 **Current Focus:** Deep diving into **Distributed Systems Design** and **Ledger Immutability**.
 
 ---
 
